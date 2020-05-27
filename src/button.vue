@@ -16,9 +16,9 @@
                 default: false,
             },
             iconPosition: {
-                "type": String,
-                "default": 'left',
-                "validator": function (value) {
+                type: String,
+                default: 'left',
+                validator: function (value) {
                     if (!(value != 'left' && value != 'right')) {
                         return false
                     } else {
