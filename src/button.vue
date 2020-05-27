@@ -16,14 +16,13 @@
                 default: false,
             },
             iconPosition: {
-                type: String,
-                default: 'left',
-                validator: function (value) {
-                    console.log(value)
-                    if (value != 'left' && value != 'right') {
-                        return true
-                    } else {
+                "type": String,
+                "default": 'left',
+                "validator": function (value) {
+                    if (!(value != 'left' && value != 'right')) {
                         return false
+                    } else {
+                        return true
                     }
                 }
             }
