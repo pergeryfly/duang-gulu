@@ -14,4 +14,5 @@ new Vue({
         "loading2": false,
         "loading3": true,
     }
+
 })
